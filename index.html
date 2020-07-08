@@ -16,7 +16,7 @@
 		crossorigin="anonymous"></script>
 		<style media="screen">
 			body {
-				background: #fda;
+				background: darkgreen;
 			}
 			.nav {
 				width: 25%;
@@ -38,9 +38,9 @@
 				font-size: 25px;
 			}
 			#welcome {
-				width: 100%;
+				width: 75%;
 				margin: 0% 26%;
-				height: 600px;
+				height: 800px;
 				background: #eba;
 				text-align: center;
 				text-transform: uppercase;
@@ -48,17 +48,50 @@
 				/* border: 2px solid black; */
 				position: absolute;
 				float: left;
+				border-radius: 2px;
 			}
+			#robot {
+				border-radius: 20px;
+			}
+			.equip {
+				text-align: left;
 
+			}
 		</style>
 		<title>expertHomePage</title>
 	</head>
 	<body>
-		<h1 id="welcome">Welcome to Expert Education Centre</h1>
+		<div id="welcome">
+			<h1>Welcome to Expert Education Centre</h1>
+			<img id="robot" src="robot3.jpg" alt="school" width="600" height="300">
+			<p class="equip">We equip students with the following life-long skills:
+				<ul class="equip">
+					<li>Digital Literacy</li>
+					<li>Communication and Collaboration</li>
+					<li>Critical and Creative Thinking</li>
+					<li>Problem Solving Skills</li>
+				</ul>
+			</p>
+			<hr>
+			<p class="equip">Enrol for any of our programmes today
+				<ol class="equip">
+					<li>SSCE and GCE</li>
+					<li>UTME and Post-UTME</li>
+					<li>Web Design and Development</li>
+					<li>Machine Learning/Data Science</li>
+					<li>Online Coding Club</li>
+				</ol>
+			</p>
+		</div>
 
 		<div class="nav">
 			<p>Expert Mathematics Hub</p>
 			<marquee>Checkout our cbt app at experteduCbt.com!</marquee>
+		</div>
+
+		<div class="connect">
+			<footer>Connect with us through</footer>
+
 		</div>
 	</body>
 </html>
