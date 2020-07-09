@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
 		crossorigin="anonymous">
@@ -14,9 +15,10 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 		crossorigin="anonymous"></script>
+
 		<style media="screen">
 			body {
-				background: darkgreen;
+				background: lightgrey;
 			}
 			.nav {
 				width: 25%;
@@ -39,8 +41,8 @@
 			}
 			#welcome {
 				width: 75%;
-				margin: 0% 26%;
-				height: 800px;
+				margin: 0% 27%;
+				height: 810px;
 				background: #eba;
 				text-align: center;
 				text-transform: uppercase;
@@ -55,15 +57,15 @@
 			}
 			.equip {
 				text-align: left;
-
 			}
+
 		</style>
 		<title>expertHomePage</title>
 	</head>
 	<body>
 		<div id="welcome">
 			<h1>Welcome to Expert Education Centre</h1>
-			<img id="robot" src="robot3.jpg" alt="school" width="600" height="300">
+			<img id="robot" src="robot3.jpg" alt="school" width="60%" height="300">
 			<p class="equip">We equip students with the following life-long skills:
 				<ul class="equip">
 					<li>Digital Literacy</li>
@@ -86,11 +88,20 @@
 
 		<div class="nav">
 			<p>Expert Mathematics Hub</p>
-			<marquee>Checkout our cbt app at experteduCbt.com!</marquee>
+			<marquee>Watchout for our cbt app at <u>experteducationcentre.com!</u></marquee>
 		</div>
 
 		<div class="connect">
-			<footer>Connect with us through</footer>
+			<!-- <footer>Connect with us through</footer>
+
+			<h3>Leave a comment</h3> -->
+			<form class="fillForm">
+				<input type="text" name="name" placeholder="Enter your name">
+				<input type="number" name="phoneNo" placeholder="Phone Number"><br>
+				<input type="email" name="email" placeholder="E-mail">
+				<input type="password" name="password" placeholder="Password"><br>
+				<button type="button" name="button">Submit</button>
+			</form>
 
 		</div>
 	</body>
